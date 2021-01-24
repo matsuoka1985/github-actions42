@@ -11,9 +11,9 @@ describe("add2のテスト",()=>{
     test("引数が数字以外でnullを出力",()=>{
         expect(add2("こんにちは")).toEqual(null);
     });
-    test("失敗するテスト",()=>{
-        expect(2).toEqual(1);
-    });
+    // test("失敗するテスト",()=>{
+    //     expect(2).toEqual(1);
+    // });
 });
 
 // test ("テストが動いているか確認",()=>{
