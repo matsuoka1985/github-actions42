@@ -1,0 +1,13 @@
+# このワークフローの名前
+name: function-testing
+
+# このワークフローの実行タイミング
+on:   push
+
+jobs:
+  test_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print pwd
+        run:  pwd
+        

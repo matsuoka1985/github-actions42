@@ -1,0 +1,25 @@
+# これはコメントになる
+# キー:ヴァリュー
+name:foo
+
+#オブジェクト
+obj:
+  name:bar
+
+#配列
+array:
+  - elem1
+  - 123
+  - true
+  - null
+
+#配列の中にオブジェクト
+
+arr:
+  -name:hoge
+
+#オブジェクトの中に配列
+obj2:
+  arr:
+    - elem1
+    - elem2
